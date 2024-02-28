@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node ./src/main.js",
+    "clientes": "node ./src/clientes.js",
+    "impuestos": "node ./src/impuestos.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.9"
+    "@babel/core": "^7.24.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.24.0"
   },
   "dependencies": {
     "core-js": "^3.36.0"
